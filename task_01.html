@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab_task_01</title>
+    </head>
+
+    <body>
+        <form action="#">
+            <fieldset align="center">
+                <legend align="center">Registration</legend>
+
+                <label>User Name:</label>
+                <input type="text" placeholder="Input your name" required>
+                <br>
+
+                <label>Age:</label>
+                <input type="text" placeholder="Input your age" required>
+                <br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">Male
+                <input type="radio" id="female" name="gender" value="female">Female
+                <br>
+
+                <label for="hobby[]">Hobby:</label>
+                <input type="checkbox" id="drawing" name="hobby[]" value="drawing">Drawing
+                <input type="checkbox" id="listening_music" name="hobby[]" value="listening_music">Listening Music
+                <br>
+
+                <label for="address">Address:</label>
+                <select name="address" id="address">
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Narayanganj">Narayanganj</option>
+                </select>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+                <br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
