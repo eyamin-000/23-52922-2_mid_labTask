@@ -1,0 +1,36 @@
+  h1{color: orangered; font-size: 100px; background-color: aquamarine; text-align: center;}
+            h1{color: black;}
+
+            #First_h1{
+                color:rgb(255, 0, 0); font-style: italic;
+            }
+
+            #Second_h1{
+                color: red;
+            }
+
+            #Second_last_h1{
+                color:blue;
+            }
+
+             #Last_h1{
+                color: blue;
+            }
+
+            .First{
+                color: red; font-family:cursive;
+            }
+            .Last{
+                color:blue;
+            }
+
+            #a{
+                color:black;
+            }
+            .Good_Bye{
+                font-size: 200px;
+            }
+
+            #Good_Day{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
